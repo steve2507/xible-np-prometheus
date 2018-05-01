@@ -1,0 +1,6 @@
+{
+  "prometheus.metric": {
+    "color": "orangered",
+    "extends": "object"
+  }
+}

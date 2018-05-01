@@ -1,0 +1,6 @@
+{
+  "prometheus.alertmanager.alert": {
+    "color": "orangered",
+    "extends": "object"
+  }
+}

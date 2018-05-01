@@ -1,0 +1,14 @@
+{
+  "name": "prometheus.query",
+  "type": "object",
+  "inputs": {
+    "prometheus": {
+      "type": "prometheus"
+    }
+  },
+  "outputs": {
+    "metrics": {
+      "type": "prometheus.metric"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "prometheus.alertmanager.onalert",
+  "type": "event",
+  "description": "Triggered whenever a new alert comes in on one of the connected alert managers. Polls the alert manager every second to fetch new alerts, since there is no event driven interface (eg websocket) from the alert manager.",
+  "inputs": {
+    "alertmanagers": {
+      "type": "prometheus.alertmanager",
+      "description": "One or more alert managers to watch."
+    }
+  },
+  "outputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "alert": {
+      "type": "prometheus.alertmanager.alert",
+      "description": "The alert belonging to the triggered event."
+    }
+  }
+}

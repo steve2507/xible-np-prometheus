@@ -1,0 +1,30 @@
+{
+  "name": "xible-np-prometheus",
+  "description": "Set of nodes to query Prometheus and Alertmanager servers.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Stefan de Jong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/xible-np-prometheus"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/xible-np-prometheus/issues",
+    "email": "stefan.de.jong@xible.io"
+  },
+  "keywords": [
+    "xible",
+    "nodepack",
+    "prometheus",
+    "alert",
+    "alertmanager"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "prometheus-server-wrapper": "*"
+  }
+}

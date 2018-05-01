@@ -1,0 +1,17 @@
+{
+  "name": "prometheus.alertmanager",
+  "type": "object",
+  "inputs": {
+    "alertmanager": {
+      "type": "prometheus.alertmanager"
+    }
+  },
+  "outputs": {
+    "alertmanager": {
+      "type": "prometheus.alertmanager"
+    },
+    "alerts": {
+      "type": "prometheus.alertmanager.alerts"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "prometheus",
+  "type": "object",
+  "outputs": {
+    "prometheus": {
+      "type": "prometheus"
+    },
+    "alertmanagers": {
+      "type": "prometheus.alertmanager"
+    }
+  }
+}
